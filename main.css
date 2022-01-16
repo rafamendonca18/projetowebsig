@@ -1,0 +1,190 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+ul {
+    padding: 0px !important;
+}
+.menu_principal {
+    width: 100%;
+    background-color: rgb(28, 169, 224);
+    height: 60px;
+}
+
+main {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
+.logo {
+    float: left;
+    padding: 5px;
+    width: 75%;
+}
+
+.redes_sociais ul li {
+    margin-left: 25px;
+    display: inline-block;
+    list-style: none;
+}
+
+.redes_sociais {
+    width: 20%;
+    float: right;
+}
+
+.header_2 {
+    background-color: white;
+    width: 980px;
+    margin: 0 auto;
+    padding: 16px;
+;
+}
+
+.menu-urls {
+    height: 80px;
+    border-bottom: 3px solid rgb(235, 231, 231);
+    height: 80px;
+}
+
+.menu ul li {
+    display: inline-block;
+    color: grey;
+    margin-left: 15px;
+    height: 50px;
+}
+
+.menu ul li:hover {
+    border-bottom: 3px solid rgb(28, 169, 224);
+}
+.menu ul li a:hover {
+    color: rgb(28, 169, 224);
+}
+
+.menu ul li a{
+    color: grey;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.menu {
+    width: 70%;
+    float: left;
+}
+
+.search {
+    text-align: center;
+    width: 30%;
+    float: right;
+}
+
+.search input {
+    background-image: url("lupa.png");
+    background-repeat: no-repeat;
+    background-position: 95%;
+    height: 36px;
+    width: 190px;
+    border: 1px solid rgb(187, 186, 186);
+    border-radius: 10px;
+}
+
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+#apresentacao {
+    text-align: left;
+}
+#aboutme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px 20px 20px;
+    background-color: rgb(248, 245, 245);
+}
+
+#aboutme p {
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#trabalhos{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px 20px 20px;
+    background-color: rgb(248, 245, 245);
+}
+
+#trabalhos p {
+    padding-left: 165px;
+    text-align: left;
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#trabalhos table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px 20px 20px;
+    background-color: rgb(248, 245, 245);
+}
+
+#imageminicial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px 20px 20px;
+    background-color: rgb(248, 245, 245);
+}
+
+#contacto {
+    background-color: rgb(187, 186, 186);
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+#contacto h2 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+#map {
+    height: 600px;
+    width: 800px;
+    left:25%;
+    margin-top: 2%;
+}
+
+#mapwebsig {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px 20px 20px;
+    background-color: white;
+}
+
+#mapwebsig p{
+    margin-bottom: 1em;
+    max-width: 1000px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif
+}
